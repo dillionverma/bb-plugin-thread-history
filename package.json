@@ -1,6 +1,6 @@
 {
   "name": "bb-plugin-thread-history",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Mod+[ and Mod+] move back and forward through the threads you opened, like browser history.",
   "license": "MIT",
   "type": "module",
