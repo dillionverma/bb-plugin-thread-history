@@ -33,9 +33,9 @@ bb plugin build
 bb plugin reload thread-history
 ```
 
-- `app.tsx` — an app overlay records the thread in view and captures BB's
+- `src/app.tsx` — an app overlay records the thread in view and captures BB's
   navigation; a content script binds the keys; two palette actions expose
   the same moves.
-- `lib/history.ts` — the pure history model and the per-window store.
-- `lib/shortcut.ts` — key matching for both platforms.
-- `server.ts` — required by the manifest, registers nothing.
+- `src/lib/history.ts` — the pure history model and the per-window store.
+- `src/lib/shortcut.ts` — key matching for both platforms.
+- `src/server.ts` — required by the manifest, registers nothing.
